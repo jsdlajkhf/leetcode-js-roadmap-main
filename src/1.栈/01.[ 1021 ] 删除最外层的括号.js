@@ -10,7 +10,12 @@
  */
 var removeOuterParentheses = function (S) {
   const bracket = { '(': ')' }
+
+  
   const stack = []
+
+
+  
   let res = []
   const result = []
   for (let i = 0; i < S.length; i++) {
